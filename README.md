@@ -35,6 +35,9 @@ Create a new project with
 choosing option (`5`), a `play-java` project and choose whatever name you want the project to have.
 
 
+### Step 2
+Added a MyBatis Module and the configuration for it.
+Also included a database file (H2 not Oracle) and the necessary configuration for it.
 
 [blog post]: https://www.innoq.com/en/blog/play24-guice-mybatis/
 [h2 database]: http://www.h2database.com
