@@ -22,6 +22,10 @@ libraryDependencies ++= Seq(
 // other, legacy style, accesses its actions statically.
 routesGenerator := InjectedRoutesGenerator
 
+unmanagedResourceDirectories in Compile <+= baseDirectory( _ / "app" )
+
+excludeFilter in Compile in unmanagedResources := "*.java" || "*.html"
+
 // Also copy the database file into the final generated zip by `activator dist`
 // See http://stackoverflow.com/questions/12231862/how-to-make-play-framework-dist-command-adding-some-files-folders-to-the-final
 mappings in Universal ++=

@@ -39,6 +39,17 @@ choosing option (`5`), a `play-java` project and choose whatever name you want t
 Added a MyBatis Module and the configuration for it.
 Also included a database file (H2 not Oracle) and the necessary configuration for it.
 
+### Step 3
+Added the MyBatis mapper and XML configuration to the project.
+Used the layout provided by [inoio] and [AlexKlibisz].
+
+Also changed the routing to provide data from the database instead of the welcome page.
+
+
+[inoio]: http://inoio.de/blog/2013/02/07/integrating-mybatis-guice-play2/
+
+[AlexKlibisz]: http://alexklibisz.github.io/setting-up-play-framework-2.3.6-with-mybatis/
+
 [blog post]: https://www.innoq.com/en/blog/play24-guice-mybatis/
 [h2 database]: http://www.h2database.com
 [SBT Groll]: https://github.com/sbt/sbt-groll
