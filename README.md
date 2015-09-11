@@ -45,6 +45,9 @@ Used the layout provided by [inoio] and [AlexKlibisz].
 
 Also changed the routing to provide data from the database instead of the welcome page.
 
+### Step 4
+Moved `app/service/UserMapper.xml` to `conf/service/UserMapper.xml` and removed the now superfluous entries from the `build.sbt` file.
+
 
 [inoio]: http://inoio.de/blog/2013/02/07/integrating-mybatis-guice-play2/
 
